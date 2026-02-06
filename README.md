@@ -65,3 +65,8 @@ Both use OIDC authentication (Workload Identity Federation) with Azure.
 **Secrets:** `AZURE_CLIENT_ID`, `AZURE_TENANT_ID`, `AZURE_SUBSCRIPTION_ID`
 
 **Variables:** `ACR_NAME`, `AKS_CLUSTER`, `AKS_RESOURCE_GROUP`
+
+## Branch Strategy
+
+- **`main`** — production-ready code; protected, changes via PR only
+- **`dev`** — active development branch; feature work happens here
