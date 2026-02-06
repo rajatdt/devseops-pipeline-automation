@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: fastapi-config
+data:
+  BOND_APP_NAME: "Bond Price Tracker"
+  BOND_ECB_BASE_URL: "https://data-api.ecb.europa.eu/service/data"
+  BOND_CACHE_TTL_SECONDS: "300"
